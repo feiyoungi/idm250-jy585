@@ -28,7 +28,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between; /* Ensures title stays on the left, buttons on the right */
+    justify-content: space-between; 
 }
 
 .nav h1 {
@@ -77,12 +77,12 @@ footer h3 {
 }
 
 .social-links a {
-    font-size: 32px; /* Makes icons larger */
-    color: var(--orange); /* Changes icons to orange */
+    font-size: 32px; 
+    color: var(--orange); 
     transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .social-links a:hover {
-    color: var(--orange-stroke); /* Darker orange on hover */
-    transform: scale(1.2); /* Slightly enlarges icons on hover */
+    color: var(--orange-stroke); 
+    transform: scale(1.2); 
 }

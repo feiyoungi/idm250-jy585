@@ -18,11 +18,15 @@
     <header>
         <nav>
             <div class="nav">
-                <h1>Fei Young</h1>
-                <button>WORK</button>
-                <button>PLAY</button>
-                <button>RESUME</button>
-                <button>ABOUT</button>
+                <div class="logo">
+                    <h1>Fei Young</h1>
+                </div>
+                <div class="menu"> 
+                    <button>WORK</button>
+                    <button>PLAY</button>
+                    <button>RESUME</button>
+                    <button>ABOUT</button>
+                </div>
             </div>
         </nav>
     </header>
