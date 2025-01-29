@@ -1,0 +1,88 @@
+:root {
+    --background: #F0FDFF;
+    --orange: #FDB467;
+    --orange-stroke: #FF9D5C;
+    --pink: #EE8989; 
+    --pink-stroke: #DD7575;
+    --gray-stroke: #BDBDBD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900&family=Poppins:wght@100..900&display=swap');
+
+body {
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 10px 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between; /* Ensures title stays on the left, buttons on the right */
+}
+
+.nav h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav button {
+    background-color: var(--pink);
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid var(--pink-stroke);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav button:hover {
+    background-color: #d45d42;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    background-color: white;
+    padding: 20px;
+    border: solid var(--gray-stroke);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 32px; /* Makes icons larger */
+    color: var(--orange); /* Changes icons to orange */
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+    color: var(--orange-stroke); /* Darker orange on hover */
+    transform: scale(1.2); /* Slightly enlarges icons on hover */
+}
