@@ -1,5 +1,5 @@
     <footer>
-        <h3>Let's Connect!</h3>
+        <!-- <h3>Let's Connect!</h3> -->
         <div class="social-links">
             <a href="https://www.linkedin.com/in/feiyoung/" target="_blank" aria-label="LinkedIn">
                 <i class="fab fa-linkedin"></i>

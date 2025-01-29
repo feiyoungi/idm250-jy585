@@ -17,16 +17,14 @@
     <?php wp_body_open(); ?>
     <header>
         <nav>
-            <div class="nav">
-                <div class="logo">
-                    <h1>Fei Young</h1>
-                </div>
-                <div class="menu"> 
-                    <button>WORK</button>
-                    <button>PLAY</button>
-                    <button>RESUME</button>
-                    <button>ABOUT</button>
-                </div>
+            <div class="logo">
+                <h1>Fei Young</h1>
+            </div>
+            <div class="menu"> 
+                <button>WORK</button>
+                <button>PLAY</button>
+                <button>RESUME</button>
+                <button>ABOUT</button>
             </div>
         </nav>
     </header>

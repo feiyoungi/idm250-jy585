@@ -24,21 +24,22 @@ header {
     border-radius: 20px 20px 0px 0px;
 }
 
-.nav {
+nav {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between; 
+    // padding: 20px; 
 }
 
-.nav h1 {
+nav h1 {
     margin: 0;
     font-size: 18px;
     font-weight: bold;
     color: black;
 }
 
-.nav button {
+nav button {
     background-color: var(--pink);
     color: black;
     font-weight: bold;
@@ -50,8 +51,13 @@ header {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.nav button:hover {
+nav button:hover {
     background-color: #d45d42;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
 }
 
 footer {
@@ -74,6 +80,7 @@ footer h3 {
 .social-links {
     display: flex;
     gap: 20px;
+    justify-content: flex-end;
 }
 
 .social-links a {
