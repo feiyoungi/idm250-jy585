@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="og:image" content=<?php echo get_template_directory_uri(); ?>/assets/cloud.jpg> -->
     <title>
         <?php 
             wp_title('|', true, 'right'); //About
@@ -30,9 +29,15 @@
         </nav>
     </header>
 
-    <!-- assignment 4 -->
-    <?php 
-    //     wp_nav_menu([
-    //         'theme_location' => 'primary-menu',
-    // ]);
-    ?>
+
+
+
+
+
+
+
+<!-- 
+    <?php body_class(); ?>
+    <?php wp_body_open(); ?>
+    <?php get_template_part ('components/main-header'); ?> 
+    <?php wp_nav_menu  ?> -->

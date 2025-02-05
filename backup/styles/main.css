@@ -1,13 +1,10 @@
 :root {
     --background: #F0FDFF;
-    --gray-stroke: #BDBDBD;
     --orange: #FDB467;
     --orange-stroke: #FF9D5C;
     --pink: #EE8989; 
     --pink-stroke: #DD7575;
-    --red-text: #883F3F;
-    --purple: #8F9ABA; 
-    --purple-stroke: #8089A5;
+    --gray-stroke: #BDBDBD;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900&family=Poppins:wght@100..900&display=swap');
@@ -25,7 +22,6 @@ header {
     background-color: var(--orange);
     padding: 10px 20px;
     border-radius: 20px 20px 0px 0px;
-    border: solid var(--orange-stroke);
 }
 
 nav {
@@ -97,59 +93,3 @@ footer h3 {
     color: var(--orange-stroke); 
     transform: scale(1.2); 
 }
-
-.post-title {
-    text-align: center;
-}
-
-.has-text-align-center {
-    text-align: center;
-    background-color: var(--purple);
-    padding: 13px 10px;
-    border-radius: 40px;
-    margin: 0px 20px .67em 20px;
-    
-}
-
-.wp-block-columns { 
-    margin: 0px;
-}
-
-.wp-block-columns p { 
-    /* margin:.67em 0px 0px 0px; */
-    text-align: center;
-}
-
-.post-meta {
-    display: none;
-}
-
-img { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.post {
-    background-color: white;
-    border: solid var(--gray-stroke);
-    margin: 20px 0px 20px 0px;
-}
-
-p {
-    padding:0px 15% 0px 15%;
-}
-
-.wp-block-heading {
-    padding: 20px 15% 0px 15%;
-    color: var(--red-text);
-}
-
-.wp-block-list {
-    padding: 0px 15% 0px 15%;
-}
-
-/* p:last-child {
-    padding:0px 15% 20px 15%;
-} */
-

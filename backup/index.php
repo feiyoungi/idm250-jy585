@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,4 @@
 <body>
     <h1>IDM250</h1>
 </body>
-</html> -->
-
-<?php get_header(); ?>
-
-<h1>
-    <?php 
-    echo get_the_title();
-    ?>
-</h1>
-
-<?php get_footer(); ?>
+</html>
