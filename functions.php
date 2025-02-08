@@ -36,10 +36,9 @@ function theme_setup()
 
     // Register navigation menus
     register_nav_menus([
-        'primary-menu' => 'Primary Menu',
+        'primary-menus' => 'Primary Menu',
     ]);
 }
 
 add_action('after_setup_theme', 'theme_setup');
 
-?>
