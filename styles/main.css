@@ -33,7 +33,6 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: space-between; 
-    /* padding: 20px;  */
 }
 
 nav h1 {
@@ -116,8 +115,11 @@ footer h3 {
     margin: 0px;
 }
 
+.wrapper .wp-block-columns {
+    margin: 0px 15% 0px 15%
+}
+
 .wp-block-columns p { 
-    /* margin:.67em 0px 0px 0px; */
     text-align: center;
 }
 
@@ -146,11 +148,99 @@ p {
     color: var(--red-text);
 }
 
+h3.wp-block-heading  {
+    text-align: left;
+}
+
+.wrapper .wp-block-heading {
+    padding: 20px 15% 0px 15%;
+    color: var(--red-text);
+    text-align: center;
+}
+
 .wp-block-list {
     padding: 0px 15% 0px 15%;
 }
 
-/* p:last-child {
-    padding:0px 15% 20px 15%;
-} */
+.wp-block-button__link {
+    color: black;
+    border: solid var(--pink-stroke);
+    background-color: var(--pink);
+    border: 2px solid var(--pink-stroke);
+    align-items: center;
+    align-content: center;
+    border-radius: 9999px;
+    box-shadow: none;
+    text-decoration: none;
+    padding: calc(.667em + 2px) calc(1.333em + 2px);
+    font-size: 1.125em;
+}
 
+..wp-block-image img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.page-header { 
+    color: var(--red-text);
+    text-align: center;
+}
+
+.wp-image-67 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    border-radius: 15px;
+    border:45px solid var(--pink); 
+}
+
+.wp-block-buttons {
+    text-align: center;
+    margin: auto;
+}
+
+.wp-block-image img {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.main-content {
+    background-color: white;
+    border: solid var(--gray-stroke);
+    border-top: 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+.page-header {
+    background-color: white;
+    border: solid var(--gray-stroke);
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    margin-bottom: 0;
+    border-bottom: 0px;
+}
+
+.wp-block-pullquote blockquote {
+    background-color: var(--purple);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+}
+
+.wp-block-pullquote {
+    padding: 0;
+}
+
+.wp-block-video video {
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+tr {
+    margin: 20%;
+}

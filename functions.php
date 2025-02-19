@@ -27,7 +27,6 @@ function theme_styles_and_scripts()
 
 add_action('wp_enqueue_scripts', 'theme_styles_and_scripts');
 
-//assignment 4
 
 function theme_setup()
 {
