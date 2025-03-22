@@ -14,6 +14,10 @@
 </div>
 <?php endif; ?>
 
+<h1 class="page-header">
+    <?php echo get_the_title(); ?>
+</h1>
+
 <?php get_template_part('components/content'); ?>
 </div>
 

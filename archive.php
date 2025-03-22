@@ -10,17 +10,8 @@
         <?php get_template_part('components/blog-card'); ?>
         </div>
 
-        <?php 
-        $categories = get_the_term_list(get_the_ID(), 'project-categories', '', ', ', '');
-        if ($categories) {
-            echo '<p class="project-card__categories">' . $categories . '</p>';
-        } 
-        ?>
-
         <?php endwhile; ?>
     </ul>
-
-    
 
     <?php the_posts_pagination(); ?>
 
