@@ -416,3 +416,7 @@ video {
     font-weight: bold;
     border-radius: 30px;
 }
+
+ul.grid.grid-3 {
+    margin-left: 0px;
+}
